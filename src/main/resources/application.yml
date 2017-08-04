@@ -21,6 +21,9 @@ auth:
     groupSearchBase: ou=Groups
     groupSearchFilter: member={0}
     connection-with-tls: false
+  token:
+    access-token-validity-seconds: 10
+    refresh-token-validity-seconds: 60
 
 server:
   port: 9999
